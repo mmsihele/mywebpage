@@ -11,7 +11,7 @@ def load_lottieurl(url):
     return r.json()
 
 # Set page configuration
-st.set_page_config(page_title="Programming is Fun", page_icon="💻", layout="wide")
+st.set_page_config(page_title="I'M AN ENGINEERING STUDENT!", page_icon="💻", layout="wide")
 
 # Load local CSS
 def local_css(file_name):
@@ -28,34 +28,34 @@ lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_fc
 
 # Load images
 try:
-    img_contact_form = Image.open("image/nn.jpg")
-    img_github = Image.open("images/nn.jpg")
+    img_contact_form = Image.open("462567014_1092285125367772_5253116121943760911_n.jpg")
+    img_github = Image.open("462567014_1092285125367772_5253116121943760911_n.jpg")
 except FileNotFoundError:
     st.error("Image file not found. Make sure the paths are correct.")
 
 # Header section
 with st.container():
-    st.subheader("Hi, I am Haidee Grace")
-    st.title("Discover How Fun Computer Engineering Can Be!")
+    st.subheader("Hi, I am Mishele Ann")
+    st.title("let's explore how computer engineering can do!")
     st.write(
         """
-        Welcome to my blog! Join me as I explore the exciting world of Computer Engineering.
-        I'll share insights, challenges, and the joys of being a Computer Engineering student.
+        Welcome to my page! Embark on a journey with me into the fascinating realm of Computer Engineering. 
+        I’ll share my experiences, challenges, and the joys of life as a Computer Engineering student.
         """
     )
-    st.write("[Message me on Gmail >](mailto:haidergrace2@gmail.com)")
+    st.write("[Message me on Gmail >](mailto:misheleann024@gmail.com)")
 
 # First-year perspective section
 with st.container():
     st.write("---")
     left_column, right_column = st.columns(2)
     with left_column:
-        st.header("Computer Programming: First-Year Perspective")
+        st.header("Computer Programming: the Experiences!")
         st.write(
             """
-            Stepping into university was a mix of excitement and nerves. 
-            Learning programming felt like discovering a new secret language.
-            From binary to algorithms, it’s been an adventure worth experiencing!
+            Starting university was a blend of excitement and nervous anticipation. 
+            Diving into programming felt like uncovering a hidden language.
+            From binary to algorithms, every step has been an adventure worth taking!
             """
         )
         st.write("[Learn more >](https://www.youtube.com/watch?v=VqgUkExPvLY)")
@@ -70,13 +70,13 @@ with st.container():
     st.write("---")
     image_column, text_column = st.columns((1, 2))
     with image_column:
-        st.image(img_contact_form, caption="Debugging: The Ultimate Puzzle")
+        st.image(img_contact_form, caption="Computer enineering student: The selcouth of taking risk")
     with text_column:
         st.write(
             """
-            Programming assignments are thrilling and sometimes challenging. 
-            Debugging feels like a daily workout, but the satisfaction of solving a problem is unmatched.
-            Balancing academics, personal time, and social life is a juggling act, but organization is key.
+           Programming assignments are both exciting and challenging.
+           Debugging can feel like a daily mental workout, but the satisfaction of solving a tough problem is truly rewarding. 
+           Balancing academics, personal time, and social life is a constant juggling act, but staying organized makes it all manageable.
             """
         )
 
@@ -86,21 +86,21 @@ with st.container():
     st.subheader("PROS AND CONS")
     st.write("### PROS:")
     st.write("""
-    1. Lucrative career opportunities with high demand for programmers.
-    2. Develop logical thinking and problem-solving skills.
-    3. Creativity in building unique solutions.
-    4. Flexibility in work environments, including remote work.
-    5. Continuous learning in a dynamic field.
-    6. Connect with a global community of developers.
+    1. Access to lucrative career opportunities with a growing demand for programmers.  
+2. Enhancement of logical thinking and problem-solving abilities.  
+3. Opportunities to express creativity by developing innovative solutions.  
+4. Flexible work environments, including the possibility of remote work.  
+5. Ongoing learning in a constantly evolving field.  
+6. The chance to connect with a global network of developers.
     """)
     st.write("### CONS:")
     st.write("""
-    1. Steep learning curve for beginners.
-    2. Sedentary work may impact physical health.
-    3. Debugging can be time-consuming and frustrating.
-    4. Rapid technological changes require continuous learning.
-    5. Isolation in some work environments.
-    6. Managing code complexity in large projects.
+   1. A steep learning curve can be challenging for beginners.  
+2. Sedentary work may have an impact on physical health.  
+3. Debugging can be both time-consuming and frustrating.  
+4. Rapid technological advancements require constant learning.  
+5. Some work environments can feel isolating.  
+6. Managing the complexity of code in large projects can be difficult.
     """)
 
 # Contact form section
